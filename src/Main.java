@@ -35,7 +35,7 @@ public class Main {
 
         double porcentagem = (acertos * 100.0) / questoes.size();
         System.out.println("Total de acertos: " + acertos + " de " + questoes.size());
-        System.out.printf("Porcentagem de acertos: %.2f%%n", porcentagem);
+        System.out.printf("Porcentagem de acertos: %.2f%%\n", porcentagem);
         System.out.println("Obrigado pela participação no Quiz!");
     }
 
